@@ -1,25 +1,18 @@
 {
-  "name": "felixarntz/customizer-definitely",
-  "description": "This framework plugin makes adding customizer panels, sections and fields to WordPress very simple, yet flexible.",
-  "version": "0.5.0",
+  "name": "felixarntz/bootstrap-for-torro-forms",
+  "description": "This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.",
+  "version": "1.0.0",
   "license": "GPL-3.0",
   "type": "wordpress-plugin",
   "keywords": [
     "wordpress",
     "plugin",
-    "definitely",
-    "framework",
-    "library",
-    "developer",
-    "admin",
-    "backend",
-    "structured data",
-    "ui",
-    "api",
-    "cms",
-    "customizer"
+    "torro forms",
+    "form builder",
+    "extension",
+    "bootstrap"
   ],
-  "homepage": "http://wordpress.org/plugins/customizer-definitely/",
+  "homepage": "https://wordpress.org/plugins/bootstrap-for-torro-forms/",
   "authors": [
     {
       "name": "Felix Arntz",
@@ -30,22 +23,12 @@
   ],
   "support": {
     "email": "felix-arntz@leaves-and-love.net",
-    "issues": "https://github.com/felixarntz/customizer-definitely/issues"
+    "issues": "https://github.com/felixarntz/bootstrap-for-torro-forms/issues"
   },
   "config": {
     "preferred-install": "dist"
   },
-  "autoload": {
-    "psr-4": {
-      "WPCD\\": "inc/WPCD/"
-    },
-    "files": [
-      "inc/functions.php"
-    ]
-  },
   "require": {
-    "composer/installers": "~1.0",
-    "felixarntz/wpdlib": "0.6.2",
-    "felixarntz/leavesandlove-wp-plugin-util": "2.0.1"
+    "composer/installers": "~1.0"
   }
 }

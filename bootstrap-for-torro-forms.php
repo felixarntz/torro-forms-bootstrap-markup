@@ -2,7 +2,7 @@
 /*
 Plugin Name: Bootstrap for Torro Forms
 Plugin URI:  https://wordpress.org/plugins/bootstrap-for-torro-forms/
-Description: This Torro Forms extensions modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.
+Description: This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.
 Version:     1.0.0
 Author:      Felix Arntz
 Author URI:  https://leaves-and-love.net
