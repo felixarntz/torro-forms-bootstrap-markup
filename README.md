@@ -3,7 +3,7 @@ Bootstrap for Torro Forms
 
 This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.
 
-You can download the latest version from the [WordPress plugin repository](http://wordpress.org/plugins/bootstrap-for-torro-forms/).
+You can download the latest version from the [WordPress plugin repository](https://wordpress.org/plugins/bootstrap-for-torro-forms/).
 
 Contributions and Bugs
 ----------------------
