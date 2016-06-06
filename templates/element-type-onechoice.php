@@ -1,4 +1,15 @@
 <?php
+/**
+ * Template: element-type-onechoice.php
+ *
+ * Available data: $element_id, $type, $id, $name, $classes, $description, $required, $answers, $response, $extra_attr
+ *
+ * @package TFBS3
+ * @subpackage Templates
+ * @author Felix Arntz <felix-arntz@leaves-and-love.net>
+ * @since 1.0.0
+ */
+
 $wrap_class = torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_group_inline() ? 'radio-inline' : 'radio';
 ?>
 <?php foreach ( $answers as $i => $answer ) : ?>

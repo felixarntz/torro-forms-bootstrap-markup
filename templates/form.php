@@ -1,4 +1,15 @@
 <?php
+/**
+ * Template: element.php
+ *
+ * Available data: $form_id, $title, $action_url, $classes, $hidden_fields, $current_container, $navigation
+ *
+ * @package TFBS3
+ * @subpackage Templates
+ * @author Felix Arntz <felix-arntz@leaves-and-love.net>
+ * @since 1.0.0
+ */
+
 $buttons_class = ' col-sm-12';
 if ( torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_form_horizontal() ) {
 	$buttons_class = ' col-sm-9 col-sm-offset-3';

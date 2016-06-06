@@ -9,7 +9,15 @@ Author URI:  https://leaves-and-love.net
 License:     GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: bootstrap-for-torro-forms
+Tags:        torro forms, form builder, extension, bootstrap
 */
+/**
+ * Extension initialization file
+ *
+ * @package TFBS3
+ * @author Felix Arntz <felix-arntz@leaves-and-love.net>
+ * @since 1.0.0
+ */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

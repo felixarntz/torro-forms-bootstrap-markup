@@ -1,4 +1,15 @@
 <?php
+/**
+ * Template: element-multiplechoice.php
+ *
+ * Available data: $element_id, $label, $id, $classes, $errors, $description, $required, $type
+ *
+ * @package TFBS3
+ * @subpackage Templates
+ * @author Felix Arntz <felix-arntz@leaves-and-love.net>
+ * @since 1.0.0
+ */
+
 $label_class = '';
 $field_class = '';
 if ( torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_form_horizontal() ) {

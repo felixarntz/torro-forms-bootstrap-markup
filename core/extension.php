@@ -1,4 +1,11 @@
 <?php
+/**
+ * Bootstrap_For_Torro_Forms class
+ *
+ * @package TFBS3
+ * @author Felix Arntz <felix-arntz@leaves-and-love.net>
+ * @since 1.0.0
+ */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
