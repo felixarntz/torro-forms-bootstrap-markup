@@ -84,10 +84,6 @@ fi
 
 cd $SVNPATH/trunk/
 
-printf "Updating composer packages..."
-composer update --prefer-dist --no-dev --quiet
-echo "Done."
-
 printf "Ignoring GitHub specific files and deployment script..."
 svn propset --quiet svn:ignore ".bowerrc
 .codeclimate.yml
