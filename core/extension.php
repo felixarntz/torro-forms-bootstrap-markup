@@ -82,7 +82,9 @@ class Bootstrap_For_Torro_Forms extends Torro_Extension {
 	}
 
 	public function add_bootstrap_input_classes( $classes, $element_type ) {
-		$classes[] = 'form-control';
+		if ( ! in_array( $element_type->name, array( 'onechoice', 'multiplechoice' ) ) ) {
+			$classes[] = 'form-control';
+		}
 
 		return $classes;
 	}
