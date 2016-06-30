@@ -17,7 +17,13 @@ This Torro Forms extension modifies the output of your forms to be styled in com
 
 == Description ==
 
-TODO
+This plugin is a tiny extension to the form builder plugin _Torro Forms_ which changes the output of its forms to follow Bootstrap markup conventions. If you're using _Torro Forms_ in combination with a theme based on the Bootstrap CSS Framework, using this extension will ensure your forms will fit into the rest of your theme design and look good out of the box, so you don't need to deal with it manually.
+
+The plugin does not change any functionality, it's just a drop-in that will mostly override the necessary templates of the main plugin.
+
+Being built using the official extension boilerplate, this simple plugin is also a great resource to learn how to build a custom extension for the _Torro Forms_. If you're a developer and would like to build your own extension, feel encouraged to browse the source code of the plugin. It is available [on GitHub](https://github.com/felixarntz/bootstrap-for-torro-forms).
+
+> This extension requires _Torro Forms_ version 1.0.0-beta.6 at least.
 
 == Installation ==
 
@@ -26,6 +32,10 @@ TODO
 3. Add all the post types you like, for example in your plugin or theme.
 
 == Frequently Asked Questions ==
+
+= How can I change the form layout? =
+
+The plugin adds a new section "Bootstrap Settings" to each form's editing screen. You will find a checkbox there that will enable the respective form to be rendered with a horizontal layout.
 
 = Where should I submit my support request? =
 
