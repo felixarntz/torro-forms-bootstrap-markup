@@ -6,7 +6,7 @@ Author:            Felix Arntz
 Author URI:        https://leaves-and-love.net
 Contributors:      flixos90
 Requires at least: 4.4
-Tested up to:      4.5.2
+Tested up to:      4.5.3
 Stable tag:        1.0.0
 Version:           1.0.0
 License:           GNU General Public License v3
