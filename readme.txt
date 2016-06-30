@@ -23,7 +23,7 @@ The plugin does not change any functionality, it's just a drop-in that will most
 
 Being built using the official extension boilerplate, this simple plugin is also a great resource to learn how to build a custom extension for the _Torro Forms_. If you're a developer and would like to build your own extension, feel encouraged to browse the source code of the plugin. It is available [on GitHub](https://github.com/felixarntz/bootstrap-for-torro-forms).
 
-> This extension requires _Torro Forms_ version 1.0.0-beta.6 at least.
+> **Note**: This extension requires _Torro Forms_ version 1.0.0-beta.6 at least.
 
 == Installation ==
 
@@ -49,7 +49,9 @@ You can also contribute to the plugin by translating it. Simply visit [translate
 
 == Screenshots ==
 
-TODO
+1. A simple Torro Forms contact form embedded in the [Bootstrap Basic theme](https://wordpress.org/themes/bootstrap-basic/)
+2. The same form with a horizontal layout
+3. The same form after a submission that produced some errors
 
 == Changelog ==
 
