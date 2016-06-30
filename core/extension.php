@@ -73,7 +73,9 @@ class Bootstrap_For_Torro_Forms extends Torro_Extension {
 
 		$key = array_search( 'error', $classes, true );
 		if ( false !== $key ) {
-			$classes = array_splice( $classes, $key, 1, array( 'has-error' ) );
+			$classes[ $key ] = 'has-error';
+		} elseif ( ! is_null( $element->response ) ) {
+			$classes[] = 'has-success';
 		}
 
 		return $classes;

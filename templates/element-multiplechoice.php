@@ -40,7 +40,7 @@ $aria_required = $required ? ' aria-required="true"' : '';
 			<?php endif; ?>
 
 			<?php if ( 0 < count( $errors ) ) : ?>
-				<div class="error-messages alert alert-danger" role="alert">
+				<div id="<?php echo esc_attr( $id ); ?>-errors" class="error-messages help-block">
 					<?php foreach ( $errors as $error ) : ?>
 						<span><?php echo $error; ?></span>
 					<?php endforeach; ?>
