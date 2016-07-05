@@ -11,7 +11,7 @@
  */
 
 $buttons_class = ' col-sm-12';
-if ( torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_form_horizontal() ) {
+if ( torro()->extensions()->get_registered( 'torro_forms_bootstrap_markup' )->is_form_horizontal() ) {
 	$buttons_class = ' col-sm-9 col-sm-offset-3';
 }
 ?>

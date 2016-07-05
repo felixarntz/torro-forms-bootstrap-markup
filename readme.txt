@@ -1,7 +1,7 @@
-=== Bootstrap for Torro Forms ===
+=== Torro Forms Bootstrap Markup ===
 
-Plugin Name:       Bootstrap for Torro Forms
-Plugin URI:        https://wordpress.org/plugins/bootstrap-for-torro-forms/
+Plugin Name:       Torro Forms Bootstrap Markup
+Plugin URI:        https://wordpress.org/plugins/torro-forms-bootstrap-markup/
 Author:            Felix Arntz
 Author URI:        https://leaves-and-love.net
 Contributors:      flixos90
@@ -21,13 +21,13 @@ This plugin is a tiny extension to the form builder plugin _Torro Forms_ which c
 
 The plugin does not change any functionality, it's just a drop-in that will mostly override the necessary templates of the main plugin.
 
-Being built using the official extension boilerplate, this simple plugin is also a great resource to learn how to build a custom extension for the _Torro Forms_. If you're a developer and would like to build your own extension, feel encouraged to browse the source code of the plugin. It is available [on GitHub](https://github.com/felixarntz/bootstrap-for-torro-forms).
+Being built using the official extension boilerplate, this simple plugin is also a great resource to learn how to build a custom extension for the _Torro Forms_. If you're a developer and would like to build your own extension, feel encouraged to browse the source code of the plugin. It is available [on GitHub](https://github.com/felixarntz/torro-forms-bootstrap-markup).
 
 > **Note**: This extension requires _Torro Forms_ version 1.0.0-beta.6 at least.
 
 == Installation ==
 
-1. Upload the entire `bootstrap-for-torro-forms` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `torro-forms-bootstrap-markup` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Add all the post types you like, for example in your plugin or theme.
 
@@ -39,13 +39,13 @@ The plugin adds a new section "Bootstrap Settings" to each form's editing screen
 
 = Where should I submit my support request? =
 
-I preferably take support requests as [issues on Github](https://github.com/felixarntz/bootstrap-for-torro-forms/issues), so I would appreciate if you created an issue for your request there. However, if you don't have an account there and do not want to sign up, you can of course use the [wordpress.org support forums](https://wordpress.org/support/plugin/bootstrap-for-torro-forms) as well.
+I preferably take support requests as [issues on Github](https://github.com/felixarntz/torro-forms-bootstrap-markup/issues), so I would appreciate if you created an issue for your request there. However, if you don't have an account there and do not want to sign up, you can of course use the [wordpress.org support forums](https://wordpress.org/support/plugin/torro-forms-bootstrap-markup) as well.
 
 = How can I contribute to the plugin? =
 
-If you're a developer and you have some ideas to improve the plugin or to solve a bug, feel free to raise an issue or submit a pull request in the [Github repository for the plugin](https://github.com/felixarntz/bootstrap-for-torro-forms).
+If you're a developer and you have some ideas to improve the plugin or to solve a bug, feel free to raise an issue or submit a pull request in the [Github repository for the plugin](https://github.com/felixarntz/torro-forms-bootstrap-markup).
 
-You can also contribute to the plugin by translating it. Simply visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/bootstrap-for-torro-forms) to get started.
+You can also contribute to the plugin by translating it. Simply visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/torro-forms-bootstrap-markup) to get started.
 
 == Screenshots ==
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # main config
-PLUGINSLUG="bootstrap-for-torro-forms"
+PLUGINSLUG="torro-forms-bootstrap-markup"
 CURRENTDIR=`pwd`
 MAINFILE="$PLUGINSLUG.php" # This should be the name of your main php file in the WordPress plugin
 DEFAULT_EDITOR="/usr/bin/vim"

@@ -13,7 +13,7 @@
 $aria_describedby = ' aria-describedby="' . esc_attr( $id ) . '-description' . ( $has_error ? ' ' . esc_attr( $id ) . '-errors' : '' ) . '"';
 $aria_invalid = $has_error ? ' aria-invalid="true"' : '';
 $aria_required = $required ? ' aria-required="true"' : '';
-$wrap_class = torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_group_inline() ? 'checkbox-inline' : 'checkbox';
+$wrap_class = torro()->extensions()->get_registered( 'torro_forms_bootstrap_markup' )->is_group_inline() ? 'checkbox-inline' : 'checkbox';
 ?>
 <?php foreach ( $answers as $i => $answer ) : ?>
 	<div class="torro_element_checkbox <?php echo $wrap_class; ?>">

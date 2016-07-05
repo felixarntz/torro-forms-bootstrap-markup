@@ -12,7 +12,7 @@
 
 $label_class = '';
 $field_class = '';
-if ( torro()->extensions()->get_registered( 'bootstrap_for_torro_forms' )->is_form_horizontal() ) {
+if ( torro()->extensions()->get_registered( 'torro_forms_bootstrap_markup' )->is_form_horizontal() ) {
 	$label_class = ' class="col-sm-3"';
 	$field_class = ' class="col-sm-9"';
 }

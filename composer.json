@@ -1,5 +1,5 @@
 {
-  "name": "felixarntz/bootstrap-for-torro-forms",
+  "name": "felixarntz/torro-forms-bootstrap-markup",
   "description": "This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.",
   "version": "1.0.0",
   "license": "GPL-3.0",
@@ -12,7 +12,7 @@
     "extension",
     "bootstrap"
   ],
-  "homepage": "https://wordpress.org/plugins/bootstrap-for-torro-forms/",
+  "homepage": "https://wordpress.org/plugins/torro-forms-bootstrap-markup/",
   "authors": [
     {
       "name": "Felix Arntz",
@@ -23,7 +23,7 @@
   ],
   "support": {
     "email": "felix-arntz@leaves-and-love.net",
-    "issues": "https://github.com/felixarntz/bootstrap-for-torro-forms/issues"
+    "issues": "https://github.com/felixarntz/torro-forms-bootstrap-markup/issues"
   },
   "config": {
     "preferred-install": "dist"

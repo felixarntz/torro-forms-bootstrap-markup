@@ -21,7 +21,7 @@ var keywords = parseKeywords( pkg.keywords );
 
 var config = {
 	pluginSlug: pkg.name,
-	pluginName: 'Bootstrap for Torro Forms',
+	pluginName: 'Torro Forms Bootstrap Markup',
 	pluginURI: pkg.homepage,
 	author: pkg.author.name,
 	authorURI: pkg.author.url,

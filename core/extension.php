@@ -1,6 +1,6 @@
 <?php
 /**
- * Bootstrap_For_Torro_Forms class
+ * Torro_Forms_Bootstrap_Markup class
  *
  * @package TFBS3
  * @author Felix Arntz <felix-arntz@leaves-and-love.net>
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-class Bootstrap_For_Torro_Forms extends Torro_Extension {
+class Torro_Forms_Bootstrap_Markup extends Torro_Extension {
 	private static $instance = null;
 
 	public static function instance() {
@@ -31,13 +31,13 @@ class Bootstrap_For_Torro_Forms extends Torro_Extension {
 	}
 
 	protected function init() {
-		$this->title = 'Bootstrap for Torro Forms';
+		$this->title = 'Torro Forms Bootstrap Markup';
 
-		$this->name = 'bootstrap_for_torro_forms';
+		$this->name = 'torro_forms_bootstrap_markup';
 
-		$this->item_name = 'Bootstrap for Torro Forms';
+		$this->item_name = 'Torro Forms Bootstrap Markup';
 
-		$this->plugin_file = dirname( dirname( __FILE__ ) ) . '/bootstrap-for-torro-forms.php';
+		$this->plugin_file = dirname( dirname( __FILE__ ) ) . '/torro-forms-bootstrap-markup.php';
 
 		$this->version = '1.0.0';
 
@@ -111,12 +111,12 @@ class Bootstrap_For_Torro_Forms extends Torro_Extension {
 
 	public function print_form_horizontal_field() {
 		?>
-		<h4><?php _e( 'Bootstrap Settings', 'bootstrap-for-torro-forms' ); ?></h4>
+		<h4><?php _e( 'Bootstrap Settings', 'torro-forms-bootstrap-markup' ); ?></h4>
 		<div class="flex-options" role="group">
-			<label for="tfbs3_is_form_horizontal"><?php _e( 'Form Layout', 'bootstrap-for-torro-forms' ); ?></label>
+			<label for="tfbs3_is_form_horizontal"><?php _e( 'Form Layout', 'torro-forms-bootstrap-markup' ); ?></label>
 			<div>
 				<input type="checkbox" id="tfbs3_is_form_horizontal" name="tfbs3_is_form_horizontal" value="1" aria-describedby="tfbs3_is_form_horizontal_desc" <?php checked( true, $this->is_form_horizontal() ); ?> />
-				<div id="tfbs3_is_form_horizontal_desc"><?php _e( 'Render this as a horizontal form in the frontend?', 'bootstrap-for-torro-forms' ); ?></div>
+				<div id="tfbs3_is_form_horizontal_desc"><?php _e( 'Render this as a horizontal form in the frontend?', 'torro-forms-bootstrap-markup' ); ?></div>
 			</div>
 		</div>
 		<?php
@@ -131,4 +131,4 @@ class Bootstrap_For_Torro_Forms extends Torro_Extension {
 	}
 }
 
-torro()->extensions()->register( 'Bootstrap_For_Torro_Forms' );
+torro()->extensions()->register( 'Torro_Forms_Bootstrap_Markup' );
