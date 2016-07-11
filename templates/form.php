@@ -18,7 +18,9 @@ if ( torro()->extensions()->get_registered( 'torro_forms_bootstrap_markup' )->is
 <form id="torro-form-<?php echo $form_id; ?>" class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>" action="<?php echo esc_url( $action_url ); ?>" method="post" enctype="multipart/form-data" novalidate>
 	<?php echo $hidden_fields; ?>
 
-	<?php torro()->template( 'container', $current_container ); ?>
+	<?php if ( $current_container ) : ?>
+		<?php torro()->template( 'container', $current_container ); ?>
+	<?php endif; ?>
 
 	<div class="row">
 		<div class="buttons<?php echo $buttons_class; ?>" style="margin-bottom:20px;">

@@ -3,7 +3,7 @@
 Plugin Name: Torro Forms Bootstrap Markup
 Plugin URI:  https://wordpress.org/plugins/torro-forms-bootstrap-markup/
 Description: This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.
-Version:     1.0.0
+Version:     1.0.1
 Author:      Felix Arntz
 Author URI:  https://leaves-and-love.net
 License:     GNU General Public License v3

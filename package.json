@@ -1,6 +1,6 @@
 {
   "name": "torro-forms-bootstrap-markup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Torro Forms extension modifies the output of your forms to be styled in compliance with themes using the Boostrap CSS Framework.",
   "keywords": [
     "wordpress",

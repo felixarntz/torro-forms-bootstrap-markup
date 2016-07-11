@@ -39,7 +39,7 @@ class Torro_Forms_Bootstrap_Markup extends Torro_Extension {
 
 		$this->plugin_file = dirname( dirname( __FILE__ ) ) . '/torro-forms-bootstrap-markup.php';
 
-		$this->version = '1.0.0';
+		$this->version = '1.0.1';
 
 		add_filter( 'torro_template_locations', array( $this, 'register_template_location' ) );
 		add_filter( 'torro_form_classes', array( $this, 'add_bootstrap_form_classes' ), 10, 2 );

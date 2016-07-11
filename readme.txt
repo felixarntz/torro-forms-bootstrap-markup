@@ -7,8 +7,8 @@ Author URI:        https://leaves-and-love.net
 Contributors:      flixos90
 Requires at least: 4.4
 Tested up to:      4.5.3
-Stable tag:        1.0.0
-Version:           1.0.0
+Stable tag:        1.0.1
+Version:           1.0.1
 License:           GNU General Public License v3
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 Tags:              torro forms, form builder, extension, bootstrap
@@ -54,6 +54,9 @@ You can also contribute to the plugin by translating it. Simply visit [translate
 3. The same form after a submission that produced some errors
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed: support forms without a container
 
 = 1.0.0 =
 * First stable version
